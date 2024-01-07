@@ -16,7 +16,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/netflixCloneProject' element={<NetflixClone />} />
+          <Route path='/ecommerceFurniture' element={<NetflixClone />} />
           <Route path='/sushiiProject' element={<Sushii />} />
           <Route path='/openAI-ChatClone' element={<OpenAI />} />
           <Route path='/dashboardLessonDesign' element={<Cats />} />

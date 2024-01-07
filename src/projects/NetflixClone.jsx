@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import SushiImage from '../assets/images/sushii.svg';
+import ShopCover from '../assets/images/shopCover.png';
 
 export default function NetflixClone() {
   return (
-    <div className=''>
+    <div className='pt-20'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[20vh] md:h-[25vh] lg:h-[35vh] bg-black/80 z-10' />
-        <img src={SushiImage} className='absolute z-1 object-cover' />
+        <img src={ShopCover} className='absolute z-1 object-cover' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-100%] text-white z-10 p-2'>
-          <h2 className='py-2 text-5xl sm:text-6xl'>Netflix Clone</h2>
-          <h3 className='py-2 text-2xl sm:text-3xl'>React</h3>
+          <h2 className='py-2 text-5xl sm:text-6xl'>Furniture Ecommerce</h2>
+          <h3 className='py-2 text-2xl sm:text-3xl'>Vanilla Js</h3>
         </div>
       </div>
 
@@ -20,21 +20,21 @@ export default function NetflixClone() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React. It's a clone of Netflix. It features
-            React JS development, Building responsive user interfaces, State
-            management using React Hooks, Integration with third-party APIs,
-            User authentication and authorisation using Firebase Auth,
-            Deployment of React application using Netlify and Heroku
+            This web application was built with vanilla Javascript. The main
+            idea was to represent an online furniture store, where you can buy
+            different types of furniture, such as sofas, chairs, tables, etc. It
+            uses data from an API and can present it in a nice appealing way for
+            the user.
           </p>
           <a
-            href='https://sushii-iota.vercel.app/'
+            href='https://comfy-store-delta.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/stefand2003/sushii.git'
+            href='https://github.com/stefand2003/comfyStore'
             target='_blank'
             rel='noreferrer'
           >
@@ -60,7 +60,7 @@ export default function NetflixClone() {
                     d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
-                React JS
+                Vanilla JS
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
@@ -96,7 +96,7 @@ export default function NetflixClone() {
                     d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
-                React Hooks
+                API
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
@@ -114,7 +114,7 @@ export default function NetflixClone() {
                     d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
-                3rd-party API
+                CSS
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
@@ -132,7 +132,7 @@ export default function NetflixClone() {
                     d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
-                Firebase Auth
+                Mapping Array
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
@@ -150,7 +150,7 @@ export default function NetflixClone() {
                     d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
-                Netify
+                Vercel
               </p>
             </div>
           </div>

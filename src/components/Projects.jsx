@@ -4,6 +4,7 @@ import ProjectItem from './ProjectItem';
 import SushiImage from '../assets/images/sushiiCover.png';
 import ChatImage from '../assets/images/chatGPTCloneCover.png';
 import CatsCover from '../assets/images/catsCover.png';
+import ComfyStore from '../assets/images/comfyStore.png';
 
 export default function Projects() {
   return (
@@ -20,7 +21,6 @@ export default function Projects() {
             projectUrl='/sushiiProject'
             tech='React'
           />
-
           <ProjectItem
             title='Lesson Dashboard'
             backgroundImg={CatsCover}
@@ -29,16 +29,16 @@ export default function Projects() {
           />
 
           <ProjectItem
-            title='OpenAI - ChatGPT Clone'
-            backgroundImg={ChatImage}
-            projectUrl='/openAI-ChatClone'
-            tech='React'
+            title='Ecommerce - Furniture Store'
+            backgroundImg={ComfyStore}
+            projectUrl='/ecommerceFurniture'
+            tech='Vanilla Javascript'
           />
 
           <ProjectItem
-            title='Netflix Clone '
-            backgroundImg='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
-            projectUrl='/netflixCloneProject'
+            title='OpenAI - ChatGPT Clone'
+            backgroundImg={ChatImage}
+            projectUrl='/openAI-ChatClone'
             tech='React'
           />
         </div>
