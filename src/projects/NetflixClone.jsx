@@ -27,7 +27,7 @@ export default function NetflixClone() {
             the user.
           </p>
           <a
-            href='https://comfy-store-delta.vercel.app/'
+            href='https://ecom-furniture.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
