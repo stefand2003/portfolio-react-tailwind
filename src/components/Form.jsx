@@ -1,10 +1,17 @@
 import React from 'react';
 import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import emailjs from '@emailjs/browser';
 
 export default function Form() {
   const form = useRef();
+  const navigate = useNavigate();
+
+  const successfulMessage = () => {
+    // navigate to success page
+    navigate('/successfulSubmission');
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,6 +33,7 @@ export default function Form() {
       );
 
     e.target.reset();
+    successfulMessage();
   };
 
   return (
